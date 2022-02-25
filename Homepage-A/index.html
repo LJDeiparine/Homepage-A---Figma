@@ -3,7 +3,7 @@
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
@@ -44,14 +44,14 @@
 
                 <div class="collapse navbar-collapse p-0" id="navbarText">
                     <ul class="navbar-nav ms-auto m-0" >
-                        <li class="nav-item m-1 p-4">
+                        <li class="nav-item m-1 p-4"">
                             <a href="#"><p></p>About us</a>
                         </li>
                         <li class="nav-item m-1 p-4">
                             <a href="#"><p></p>Our Products</a>
                         </li>
                         <li class="nav-item m-1 p-4">
-                            <a href="#"><p></p>Costumer Service</a>
+                            <a href="#"><p></p>Customer Service</a>
                         </li>
                         <li class="nav-item m-1 p-4">
                             <a href="#"><p></p>News</a>
@@ -75,46 +75,42 @@
 
         <!-- start of Section Two -->
         <!-- start of carousel -->
-        <div id="carousel" class="carousel slide" data-bs-ride="carousel">
 
-            <!-- Indicators/dots -->
-            <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active"></button>
-            <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
-            <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+        <div class="row sectionTwo" >
+            <div class="col">
+                <div id="carousel" class="carousel slide" data-bs-ride="carousel">
+                    <!-- The carousel -->
+                    <div class="carousel-inner">
+                        <div class="carousel-item active"  style="height:100%;" >
+                            <img src="img/header.png" alt="Family Home"class="d-block img-fluid mx-auto" style="width: 100%;"  >
+                            <div class="carousel-content container" >
+                                <span class="content overlay-text d-inline-block display-1">Choose to make <br> a better <p class="home d-inline">home</p>.</span> <br></p>
+                                <span class="details overlay-text p-5 m-5 ">When your home works, everything works.</span> <br>
+                                <span class="learnmore overlay-text p-5 m-5">Learn more &nbsp;&nbsp;&nbsp;<i class="fa-solid fa-arrow-right"></i></span>
+                                <span class="pagenumber overlay-text">01 / 03 --------</span>
+                                
+                            </div>     
+                        </div>
+                        <div class="carousel-item" style="height:100%;">
+                            <img src="img/headerTwo.jpg" alt="Family Home Cabin" class="d-block" style="width:100%">
+                            <span class="pagenumber overlay-text  text-white">02 / 03 --------</span>
+                        </div>
+                        <div class="carousel-item" style="height:100%;">
+                            <img src="img/headerThree.jpg" alt="Family Baby" class="d-block" style="width:100%">
+                            <span class="pagenumber overlay-text  text-white">03 / 03 --------</span>
+                        </div>
+                    </div>
+                    
+                    <!-- Left and right controls/icons -->
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                    </button>
+                </div>
             </div>
-            
-            <!-- The carousel -->
-            <div class="carousel-inner" >
-            <div class="carousel-item active">
-                <img src="img/header.png" alt="Los Angeles" class="d-block" style="width:100%" >
-                <div class="carousel-content">
-                    <span class="overlay-text p-5 m-5">Choose to make <br> a better <p class="home d-inline">home</p>.</span> <br></p>
-                    <span class="details overlay-text p-5 m-5 ">When your home works, everything works.</span> <br>
-                    <span class="learnmore overlay-text p-5 m-5">Learn more &nbsp;&nbsp;&nbsp;<i class="fa-solid fa-arrow-right"></i></span>
-                    <span class="pagenumber overlay-text p-3 m-1">01 / 03 --------</span>
-                  </div>
-                 
-            </div>
-            <div class="carousel-item">
-                <img src="img/headerTwo.jpg" alt="Chicago" class="d-block" style="width:100%">
-                <span class="pagenumber overlay-text p-3 m-1 text-white">02 / 03 --------</span>
-            </div>
-            <div class="carousel-item">
-                <img src="img/headerThree.jpg" alt="New York" class="d-block" style="width:100%">
-                <span class="pagenumber overlay-text p-3 m-1 text-white">03 / 03 --------</span>
-            </div>
-            </div>
-            
-            <!-- Left and right controls/icons -->
-            <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon"></span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
-            <span class="carousel-control-next-icon"></span>
-            </button>
         </div>
-
         <!-- end of carousel -->
         <!-- end of Section Two -->
 
@@ -122,18 +118,18 @@
         <div class="container-fluid">
             <div class="row">
               <div class="One col px-0">
-                  <div class="sectionThree " style="background:url('img/refrigerator.png') no-repeat center  / cover;" alt="Italian Trulli"> </div>
+                  <div class="sectionThree" alt="Refrigerator" title="Home Refrigerator" style="background:url('img/refrigerator.png') no-repeat center  / cover; height: 120%;" alt="Italian Trulli"> </div>
                
               </div>
 
-              <div class="Two col" >
+              <div class="Two col" style="height:100%;" >
                 <div class="TwoParagraph">
-                  <div class="separator" style="color: #CDCDCD;" > &nbsp; OUR <b class="story">STORY </b></div>
+                  <div class="separator" style="color: #CDCDCD; " > &nbsp; OUR <b class="story">STORY </b></div>
                   <h1>Making better <br> homes since <p class="home d-inline">1986</p>.</h1>
 
                   <p class="details">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas nec urna <br> molestie, viverra turpis in, ullamcorper orci. Fusce in elit congue mi <br> dignissim consectetur. Aenean ultricies nibh sit amet metus ornare, in <br>ultricies libero fermentum. Donec faucibus nisi vel commodo interdum. <br> Etiam vel neque tempor, placerat orci nec, aliquam turpis. Praesent placerat <br>euismod velit, nec tempor magna faucibus congue. </p>
 
-                  <p class="learnmore">Learn more &nbsp;&nbsp;&nbsp;<i class="fa-solid fa-arrow-right"></i></p>
+                  <span class="learnmore ">Learn more &nbsp;&nbsp;&nbsp;<i class="fa-solid fa-arrow-right"></i></span>
                 </div>
 
               </div>
@@ -144,7 +140,6 @@
         <!--start of Section Four-->
         <div class="container-fluid" >
             <div class="sectionFour row" >
-            
                 <div class="sectionFour "> 
                     <div class="separator" > &nbsp; OUR <b class="story">PRODUCT </b></div>
                      <h1 class="choose">Choose <p class="home d-inline">home</p>.</h1>
@@ -163,51 +158,45 @@
 
 
         <!--start of Section Five-->
-        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel"  >
+        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel"   style="height:100%;">
             <div class="carousel-inner" >
-              <div class="carousel-item active" >
-                <div class="row">
-                    <div class="OneSectionFive col">
-                        <div class="OneSectionFiveImage" style="background:url('img/girlref.png') no-repeat center  / cover;" ></div>
+              <div class="sectionFivecarousel carousel-item active" >
+                <div class="row" >
+                    <div class="OneSectionFive col" style="height:422px;">
+                        <div class="OneSectionFiveImage" style="background:url('img/girlref.png') no-repeat center/cover; " alt="Refrigerator"></div>
                     </div>
-                    <div class="TwoSectionFive col"> 
-                        <div>Refrigerators <p class="text-details"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas nec urna <br>molestie, viverra turpis in, ullamcorper orci. Fusce in elit congue mi <br> dignissim consectetur. </p> <p class="view">View Refrigerators &nbsp;&nbsp;&nbsp; <i class="fa-solid fa-arrow-right" style="color:white;"></i> </p> </div>
-                    </div>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <div class="row">
-                    <div class="OneSectionFive col">
-                        <div class="OneSectionFiveImage" style="background:url('img/aircon.jpg') no-repeat center  / cover; "></div>
-                    </div>
-                    <div class="TwoSectionFive col"> Aircon Conditioners<p class="text-details"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas nec urna <br>molestie, viverra turpis in, ullamcorper orci. Fusce in elit congue mi <br> dignissim consectetur. </p> <p class="view">View Aircon Conditioners &nbsp;&nbsp;&nbsp; <i class="fa-solid fa-arrow-right" style="color:white;"></i></p>
+                    <div class="TwoSectionFive col" > 
+                        <div>Refrigerators <p class="text-details"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas nec urna <br>molestie, viverra turpis in, ullamcorper orci. Fusce in elit congue mi <br> dignissim consectetur. </p> <span class="view">View Refrigerators &nbsp;&nbsp;&nbsp; <i class="fa-solid fa-arrow-right" style="color:white;"></i> </span> </div>
                     </div>
                 </div>
               </div>
               <div class="carousel-item">
                 <div class="row">
-                    <div class="OneSectionFive col">
-                        <div class="OneSectionFiveImage" style="background:url('img/washing.png') no-repeat center  / cover; "></div>
+                    <div class="OneSectionFive col" >
+                        <div class="OneSectionFiveImage" style="background:url('img/aircon.jpg') no-repeat center  / cover; " alt="Airconditioner"></div>
                     </div>
-                    <div class="TwoSectionFive col"> Washing Machines <p class="text-details"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas nec urna <br>molestie, viverra turpis in, ullamcorper orci. Fusce in elit congue mi <br> dignissim consectetur. </p> <p class="view">View Washing Machines&nbsp;&nbsp;&nbsp; <i class="fa-solid fa-arrow-right" style="color:white;"></i></p>
+                    <div class="TwoSectionFive col"> Aircon Conditioners<p class="text-details"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas nec urna <br>molestie, viverra turpis in, ullamcorper orci. Fusce in elit congue mi <br> dignissim consectetur. </p> <span class="view">View Aircon Conditioners &nbsp;&nbsp;&nbsp; <i class="fa-solid fa-arrow-right" style="color:white;"></i></span>
+                    </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="row">
+                    <div class="OneSectionFive col" style="height:422px;">
+                        <div class="OneSectionFiveImage" style="background:url('img/washing.png') no-repeat center  / cover; " alt="Washing Machine"></div>
+                    </div>
+                    <div class="TwoSectionFive col"> Washing Machines <p class="text-details"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas nec urna <br>molestie, viverra turpis in, ullamcorper orci. Fusce in elit congue mi <br> dignissim consectetur. </p> <span class="view">View Washing Machines&nbsp;&nbsp;&nbsp; <i class="fa-solid fa-arrow-right" style="color:white;"></i></span>
                     </div>
                 </div>
               </div>
             </div>
 
-
-           
-            <button class="sectionFive carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev" >
-                <span class="carousel-control-prev" aria-hidden="true" style="position:relative;">View Products</span>
-                <span class="visually-hidden">View Products</span>
-            </button>
-
-            <button class="sectionFiveSecond carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev" >
+          
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev" >
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="visually-hidden"></span>
             </button>
 
-            <button class="sectionFiveThird carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Next</span>
             </button>
@@ -218,7 +207,6 @@
          <!--start of Section Six-->
          <div class="container-fluid" >
             <div class="sectionSix row" >
-            
                 <div class="sectionSix "> 
                    
                      <h1 class="choose">Choose the <p class="ideal d-inline">ideal</p> product for you.</h1>
@@ -227,7 +215,7 @@
                         Find the ideal home appliance that perfectly matches your daily needs.
                      </p>
 
-                     <p class="tryNow">Try now &nbsp;&nbsp;&nbsp; <i class="fa-solid fa-arrow-right" style="color:#008AA7;"></i></p>
+                     <p class="tryNow">Try now &nbsp;&nbsp;&nbsp; <i class="fa-solid fa-arrow-right"></i></p>
                 </div>
                
 
@@ -236,50 +224,50 @@
         </div>
         <!--end of Section Six -->
 
-        <!--start of Section Seven-->
-        <div id="carouselSecondFade" class="carousel slide carousel-fade" data-bs-ride="carousel"  >
+        <!--start of Section Seven -->
+        <div id="carouselSecondFade" class="carousel slide carousel-fade" data-bs-ride="carousel" style="height:100%;"  >
             <div class="carousel-inner" >
-                <div class="carousel-item active" >
+                <div class="sectionSevencarousel carousel-item active" >
                 <div class="row">
                     <div class="OneSectionSeven col">
                         <div class="separatorSectionSeven" > &nbsp; CUSTOMER <b>SERVICE </b></div> 
                         
-                        <div> Services and <br/>repairs.<p class="text-details"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br/> Maecenas nec urna molestie, viverra turpis in, ullamcorper orci. Fusce in elit congue mi dignissim consectetur. </p>
+                        <div class="content"> Services and <br/>repairs.<p class="text-details"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br/> Maecenas nec urna molestie, viverra turpis in, ullamcorper orci. Fusce in elit congue mi dignissim consectetur. </p>
                         </div>
                     </div> 
                    
                     <div class="TwoSectionSeven col" > 
-                        <div class="TwoSectionSevenImage" style="background:url('img/washer.png') no-repeat center  / cover;" ></div>
+                        <div class="TwoSectionSevenImage" style="background:url('img/washer.png') no-repeat center  / cover; " alt="Service and Repair" ></div>
                     </div>
                 </div>
                 </div>
-                <div class="carousel-item">
+                <div class="sectionSevencarousel carousel-item">
                 <div class="row">
                     <div class="OneSectionSeven col">
                         
                         <div class="separatorSectionSeven" > &nbsp; CUSTOMER <b>SERVICE </b></div> 
                         
-                        <div> Product Registration.<p class="text-details"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br/> Maecenas nec urna molestie, viverra turpis in, ullamcorper orci. Fusce in elit congue mi dignissim consectetur. </p>
+                        <div class="content"> Product <br>Registration.<p class="text-details">Lorem ipsum dolor sit amet, consectetur  <br/>adipiscing elit. <br/> Maecenas nec urna molestie, viverra turpis in, ullamcorper orci. Fusce in elit congue mi dignissim consectetur. </p>
                         </div>
                     </div> 
                    
                     <div class="TwoSectionSeven col" > 
-                        <div class="TwoSectionSevenImage" style="background:url('img/register.jpg') no-repeat center  / cover;" ></div>
+                        <div class="TwoSectionSevenImage" style="background:url('img/register.jpg') no-repeat center  / cover;" alt="Product Registration" ></div>
                     </div>
                 </div>
                 </div>
-                <div class="carousel-item">
+                <div class="sectionSevencarousel carousel-item">
                 <div class="row">
                     <div class="OneSectionSeven col">
                         
                         <div class="separatorSectionSeven" > &nbsp; CUSTOMER <b>SERVICE </b></div>  
                         
-                        <div> Store Locator. <p class="text-details"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br/> Maecenas nec urna molestie, viverra turpis in, ullamcorper orci. Fusce in elit congue mi dignissim consectetur. </p>
+                        <div class="content"> Store Locator. <p class="text-details"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br/> Maecenas nec urna molestie, viverra turpis in, ullamcorper orci. Fusce in elit congue mi dignissim consectetur. </p>
                         </div>
                     </div> 
                    
                     <div class="TwoSectionSeven col"> 
-                        <div class="TwoSectionSevenImage" style="background:url('img/store.jpg') no-repeat center  / cover;" ></div>
+                        <div class="TwoSectionSevenImage" style="background:url('img/store.jpg') no-repeat center  / cover;" alt="Store Locator" ></div>
                     </div>
                 </div>
             </div>
@@ -287,26 +275,24 @@
 
 
         
-        <button class="sectionSeven carousel-control-prev" type="button" data-bs-target="#carouselSecondFade" data-bs-slide="prev" >
-            <span class="carousel-control-prev" aria-hidden="true" style="position:relative; color: white;">Learn More</span>
-            <span class="visually-hidden">View Products</span>
-        </button>
+        
+      
 
-        <button class="sectionSevenSecond carousel-control-prev" type="button" data-bs-target="#carouselSecondFade" data-bs-slide="prev" >
+        <button class=" carousel-control-prev" type="button" data-bs-target="#carouselSecondFade" data-bs-slide="prev" >
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="visually-hidden"></span>
         </button>
 
-        <button class="sectionSevenThird carousel-control-next" type="button" data-bs-target="#carouselSecondFade" data-bs-slide="next">
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselSecondFade" data-bs-slide="next">
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
+            <span class="visually-hidden"></span>
         </button>
 
         </div>
         <!--end of Section Seven -->
 
         <!--start of Section Eight-->
-        <div class="container-fluid" >
+        <div class="container-fluid">
             <div class="sectionEight row" >
             
                 <div class="sectionEight "> 
@@ -325,9 +311,9 @@
         <!--end of Section Eight-->
 
         <!--start of Section Nine-->
-        <div id="carouselThirdFade" class="carousel sectionNine slide carousel-fade" data-bs-ride="carousel"  >
+        <div id="carouselThirdFade" class="carousel sectionNine slide carousel-fade" data-bs-ride="carousel">
             <div class="carousel-inner" >
-                <div class="carousel-item active" >
+                <div class="sectionNinecarousel carousel-item active" >
                 <div class="row">
                     <div class=" col  sectionNineColOne" style="background:url('img/bedroom.png') no-repeat center  / cover;"></div>
                     <div class="col sectionNineColTwo"> 
@@ -410,12 +396,12 @@
             </div>
         </div>
 
-        <button class="sectionNineSecond carousel-control-prev" type="button" data-bs-target="#carouselThirdFade" data-bs-slide="prev" >
+        <button class=" carousel-control-prev" type="button" data-bs-target="#carouselThirdFade" data-bs-slide="prev" >
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="visually-hidden"></span>
         </button>
 
-        <button class="sectionNineThird carousel-control-next" type="button" data-bs-target="#carouselThirdFade" data-bs-slide="next">
+        <button class=" carousel-control-next" type="button" data-bs-target="#carouselThirdFade" data-bs-slide="next">
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Next</span>
         </button>
